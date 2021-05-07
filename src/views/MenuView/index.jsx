@@ -1,45 +1,14 @@
 import "./menu.css";
 import React from "react";
+import Header from "../../modules/General/components/Header";
 
 
 const MenuView = () => {
     return (
         <div>
-            <header id="iznd" className="header-banner">
-                <div id="imif" className="container-width">
-                    <div id="i6ol" className="logo-container">
-                    </div>
-                    <nav id="ivk2" className="menu">
-                        <div id="i49v" className="menu-item">
-                            <div id="i8k8">Contacts
-                            </div>
-                        </div>
-                        <div id="i7j68h" className="menu-item">Cart
-                        </div>
-                        <div id="i91llm" className="menu-item">Vacancies
-                        </div>
-                        <div id="izqj" className="menu-item">Menu
-                        </div>
-                        <div id="i5lgs" className="menu-item">Home
-                        </div>
-                    </nav>
-                    <div id="ien7" className="logo">
-                        <div>
-                            <b>Pâtisserie
-                                <br/>
-                            </b>
-                        </div>
-                        <div>
-                            <b>on the Hill
-                            </b>
-                        </div>
-                    </div>
-                    <div className="clearfix">
-                    </div>
-                </div>
-            </header>
-            <section id="icd16f" className="flex-sect">
-                <div id="i37gv2" className="container-width">
+            <Header/>
+            <section id="ivl8bg" className="flex-sect">
+                <div className="container-width">
                     <div className="flex-title">
                         <div id="iel28p">CAKES
                         </div>
@@ -118,8 +87,8 @@ const MenuView = () => {
                     </div>
                 </div>
             </section>
-            <section id="i7tuyd" className="flex-sect">
-                <div id="i5aw3m" className="container-width">
+            <section id="ierzys" className="flex-sect">
+                <div className="container-width">
                     <div className="flex-title" id="iqg2ky">
                         <div id="ihptis">TREATS
                         </div>
@@ -130,7 +99,6 @@ const MenuView = () => {
                             </div>
                             <div className="card-body" id="ixqubr">
                                 <div className="card-title" id="ixld2i">Cookies in assortment
-                                    <br/>
                                 </div>
                                 <div className="card-title" id="ihqmwj">Price: 0$ for 1 kg.
                                     <br/>
@@ -142,7 +110,6 @@ const MenuView = () => {
                             </div>
                             <div className="card-body" id="ihmrh3">
                                 <div className="card-title" id="idz05d">Sweets in assortment
-                                    <br/>
                                 </div>
                                 <div className="card-title" id="ip6ylm">Price: 0$ for 1 kg.
                                     <br/>
@@ -154,7 +121,6 @@ const MenuView = () => {
                             </div>
                             <div className="card-body" id="i69mj3">
                                 <div className="card-title" id="i44h9v">Mochi in assortment
-                                    <br/>
                                 </div>
                                 <div className="card-title" id="i14sie">Price: 0$ for 1 kg.
                                     <br/>
