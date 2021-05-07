@@ -215,9 +215,9 @@ body {
     background-position: left top;
     background-attachment: scroll;
     background-size: auto;
-    padding-bottom: 10px !important;
     padding: 100px 0 100px 0 !important;
-    height: 700px;
+    height: auto;
+    min-height: 600px;
 }
 
 #ijw9a {
