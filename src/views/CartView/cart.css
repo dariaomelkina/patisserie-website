@@ -242,7 +242,7 @@ body {
 
 #ik1p3 {
     flex-basis: 20%;
-    background-image: url('../images/quark-tart-2549438_1920.jpg');
+    background-image: url('../../images/quark-tart-2549438_1920.jpg');
     background-repeat: repeat;
     background-position: left top;
     background-attachment: scroll;
@@ -263,7 +263,7 @@ body {
 
 #iih11 {
     flex-basis: 20%;
-    background-image: url('../images/coffee-3043424_1920.jpg');
+    background-image: url('../../images/coffee-3043424_1920.jpg');
     background-repeat: repeat;
     background-position: left top;
     background-attachment: scroll;

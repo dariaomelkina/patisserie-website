@@ -454,7 +454,7 @@ body {
 }
 
 #i1v15 {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67)), url('../images/cake.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67)), url('../../images/cake.jpg');
     background-repeat: repeat, repeat;
     background-position: left top, left top;
     background-attachment: scroll, scroll;
@@ -462,7 +462,7 @@ body {
 }
 
 #i5pwpf {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67)), url('../images/dessert.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67)), url('../../images/dessert.jpg');
     background-repeat: repeat, repeat;
     background-position: left top, left top;
     background-attachment: scroll, scroll;
@@ -470,7 +470,7 @@ body {
 }
 
 #ijiow {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67)), url('../images/cup.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67)), url('../../images/cup.jpg');
     background-repeat: repeat, repeat;
     background-position: left top, left top;
     background-attachment: scroll, scroll;
@@ -478,7 +478,7 @@ body {
 }
 
 #ifwqv {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67)), url('../images/vegan-dessert.jpg');
+    background-image: linear-gradient(rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67)), url('../../images/vegan-dessert.jpg');
     background-repeat: repeat, repeat;
     background-position: left top, left top;
     background-attachment: scroll, scroll;

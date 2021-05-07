@@ -1,7 +1,9 @@
 import React from "react";
+import dog1 from '../../../../images/dog1.png';
+import dog2 from '../../../../images/dog2.png';
+import dog3 from '../../../../images/dog3.png';
 
 const CrewCards = () => {
-
     return (
         <section id="ionf8u" className="bdg-sect">
             <div id="itoko2" className="container-width">
@@ -11,7 +13,7 @@ const CrewCards = () => {
                     <div className="badge">
                         <div id="i1cd98" className="badge-header">
                         </div>
-                        <img src="../images/dog1.png" id="ijbhea" className="badge-avatar" alt="Dog"/>
+                        <img src={dog1} id="ijbhea" className="badge-avatar" alt="Dog"/>
                         <div className="badge-body">
                             <div id="iddnd6" className="badge-name">Daria
                             </div>
@@ -26,7 +28,7 @@ const CrewCards = () => {
                     <div className="badge">
                         <div id="issnxt" className="badge-header">
                         </div>
-                        <img src="../images/dog2.png" id="ih5rwl" className="badge-avatar" alt="Dog"/>
+                        <img src={dog2} id="ih5rwl" className="badge-avatar" alt="Dog"/>
                         <div className="badge-body">
                             <div id="ii0jw1" className="badge-name">Nataliia
                             </div>
@@ -40,7 +42,7 @@ const CrewCards = () => {
                     <div className="badge">
                         <div id="id0bdx" className="badge-header">
                         </div>
-                        <img src="../images/dog3.png" id="ieade9" className="badge-avatar" alt="Dog"/>
+                        <img src={dog3} id="ieade9" className="badge-avatar" alt="Dog"/>
                         <div className="badge-body">
                             <div id="imxvoz" className="badge-name">Zoryana
                             </div>
