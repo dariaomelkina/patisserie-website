@@ -17,6 +17,8 @@ const CartView = () => {
                 <div className="row" id="i3jgh">
                     <div className="cell" id="ii1mj">
                         <div className="row" id="i1m5z">
+                            {/*TODO: отут має бути загальний елменти, що вміщатиме в себе об'єкти корзинки
+                                і генеруватиме з ними список + CartElemet використати як базу*/}
                             <div className="cell" id="iqaum">
 
                                 <CartElement1/>
