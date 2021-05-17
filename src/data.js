@@ -5,7 +5,7 @@ export default [
 		title: 'Cheesecake',
 		price: 15.12,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/cheesecake-2867614_1920.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/cheesecake-2867614_1920.jpg?raw=true'
 	},
 	{
 		id: 2,
@@ -13,7 +13,7 @@ export default [
 		title: 'Chocolate Cake',
 		price: 18.11,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/chocolate_cake.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/chocolate_cake.jpg?raw=true'
 	},
 	{
 		id: 3,
@@ -21,7 +21,7 @@ export default [
 		title: 'Coffe&Chocolate Cake',
 		price: 13.98,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/chocolate-cake-4446608_1920.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/chocolate-cake-4446608_1920.jpg?raw=true'
 	},
 	{
 		id: 4,
@@ -29,7 +29,7 @@ export default [
 		title: 'Strawberry Roll Cake',
 		price: 12.00,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/cake-219595_1920.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/cake-219595_1920.jpg?raw=true'
 	},
 	{
 		id: 5,
@@ -37,7 +37,7 @@ export default [
 		title: 'Orange Cake',
 		price: 13.17,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/orange-cake-398966_1920.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/orange-cake-398966_1920.jpg?raw=true'
 	},
 	{
 		id: 6,
@@ -45,7 +45,7 @@ export default [
 		title: 'Fruit Cake',
 		price: 16.20,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/cake.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/cake.jpg?raw=true'
 	},
 	{
 		id: 7,
@@ -53,7 +53,7 @@ export default [
 		title: 'Vanilla&Chocolate Cake',
 		price: 10.11,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/cake2.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/cake2.jpg?raw=true'
 	},
 	{
 		id: 8,
@@ -61,7 +61,7 @@ export default [
 		title: 'Sugar Candies',
 		price: 5.45,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/candy-1961538_1920.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/candy-1961538_1920.jpg?raw=true'
 	},
 	{
 		id: 9,
@@ -69,7 +69,7 @@ export default [
 		title: 'Hot Americano',
 		price: 2.23,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/coffee-3043424_1920.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/coffee-3043424_1920.jpg?raw=true'
 	},
 	{
 		id: 10,
@@ -77,7 +77,7 @@ export default [
 		title: 'Cappuccino',
 		price: 5.19,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/coffee-983955_1920.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/coffee-983955_1920.jpg?raw=true'
 	},
 	{
 		id: 11,
@@ -85,7 +85,7 @@ export default [
 		title: 'Cookies Assorti',
 		price: 13.10,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/cookies-5841280_1920.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/cookies-5841280_1920.jpg?raw=true'
 	},
 	{
 		id: 12,
@@ -93,7 +93,7 @@ export default [
 		title: 'Chamomile Tea',
 		price: 2.23,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/cup.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/cup.jpg?raw=true'
 	},
 	{
 		id: 13,
@@ -101,7 +101,7 @@ export default [
 		title: 'Carrot Cupcake',
 		price: 5.67,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/cupcake-2588646_1920.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/cupcake-2588646_1920.jpg?raw=true'
 	},
 	{
 		id: 14,
@@ -109,7 +109,7 @@ export default [
 		title: 'Chocolate Cupcake',
 		price: 5.23,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/cupcakes-690040_1920.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/cupcakes-690040_1920.jpg?raw=true'
 	},
 	{
 		id: 15,
@@ -117,7 +117,7 @@ export default [
 		title: 'Daifuku',
 		price: 3.11,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/daifuku-503776_1920.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/daifuku-503776_1920.jpg?raw=true'
 	},
 	{
 		id: 16,
@@ -125,7 +125,7 @@ export default [
 		title: 'Almond Cookies',
 		price: 6.31,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/dessert.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/dessert.jpg?raw=true'
 	},
 	{
 		id: 17,
@@ -133,7 +133,7 @@ export default [
 		title: 'Berry Smoothie',
 		price: 3.99,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/food-5227740_1920.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/food-5227740_1920.jpg?raw=true'
 	},
 	{
 		id: 18,
@@ -141,7 +141,7 @@ export default [
 		title: 'Latte',
 		price: 2.57,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/latte-art-2431160_1920.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/latte-art-2431160_1920.jpg?raw=true'
 	},
 	{
 		id: 19,
@@ -149,7 +149,7 @@ export default [
 		title: 'Latte-Macchiato',
 		price: 3.22,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/latte-macchiato-3669136_1920.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/latte-macchiato-3669136_1920.jpg?raw=true'
 	},
 	{
 		id: 20,
@@ -157,7 +157,7 @@ export default [
 		title: 'Matcha-Latte',
 		price: 2.99,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/matcha-latte-2356772_1920.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/matcha-latte-2356772_1920.jpg?raw=true'
 	},
 	{
 		id: 21,
@@ -165,7 +165,7 @@ export default [
 		title: 'Milkshake',
 		price: 3.45,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/milkshake-5199609_1920.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/milkshake-5199609_1920.jpg?raw=true'
 	},
 	{
 		id: 22,
@@ -173,7 +173,7 @@ export default [
 		title: 'Quark Tart',
 		price: 5.99,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/quark-tart-2549438_1920.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/quark-tart-2549438_1920.jpg?raw=true'
 	},
 	{
 		id: 23,
@@ -181,7 +181,7 @@ export default [
 		title: 'Rum Bites',
 		price: 1.99,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/rum-1871512_1920.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/rum-1871512_1920.jpg?raw=true'
 	},
 	{
 		id: 24,
@@ -189,7 +189,7 @@ export default [
 		title: 'Matcha Cake',
 		price: 2.33,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/sweets-847918_1920.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/sweets-847918_1920.jpg?raw=true'
 	},
 	{
 		id: 25,
@@ -197,6 +197,6 @@ export default [
 		title: 'Matcha Cake',
 		price: 2.59,
 		image:
-			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/vegan-dessert.jpg'
+			'https://github.com/dariaomelkina/patisserie-website/blob/master/src/images/vegan-dessert.jpg?raw=true'
 	}
 ];

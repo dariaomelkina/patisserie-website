@@ -820,9 +820,6 @@ body {
     background-size: auto, cover;
 }
 
-#i06htm {
-    min-height: 70%;
-}
 
 #im23vl {
     font-weight: 100;
@@ -1043,6 +1040,7 @@ body {
     background-attachment: scroll;
     background-size: cover;
 }
+
 
 #i2it2j {
     background-image: url('../../images/latte-art-2431160_1920.jpg');

@@ -12,8 +12,6 @@ import Products from './modules/Menu/components/ProductList';
 import Footer from "./modules/General/components/Footer";
 import Navigation from "./modules/General/components/Navigation";
 
-// import ShoppingCart from './components/ShoppingCart';
-
 function App() {
     const [products] = useState(data);
     const [cart, setCart] = useState([]);
@@ -41,7 +39,9 @@ function App() {
             <Route path="/contacts">
                 <ContactsView/>
             </Route>
-
+            <Route path="/cart">
+                <CartView cart={cart}/>
+            </Route>
             <Footer/>
         </div>
     );

@@ -1,6 +1,6 @@
 import React from "react";
 
-const CartForm = () => {
+const CartForm = props => {
 
     return (
         <div className="cell" id="ilmot">
@@ -15,7 +15,7 @@ const CartForm = () => {
                     <label className="label" id="idi8q">Surname</label>
                     <input placeholder="Type here your surname" className="input" id="is448"/>
                 </div>
-                <label className="label" id="iiest">Total sum: 0$</label>
+                <label className="label" id="iiest">Total sum: -{props.total}$</label>
                 <div className="form-group" id="iv7qw">
                     <button type="submit" className="button" id="i8lf1">Send</button>
                 </div>
