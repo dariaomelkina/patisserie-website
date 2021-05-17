@@ -873,7 +873,7 @@ body {
 }
 
 #i2it2j {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67)), url('../../images/dessert.jpg');
+    /*background-image: linear-gradient(rgba(255, 255, 255, 0.67), rgba(255, 255, 255, 0.67)), url('../../images/dessert.jpg');*/
     background-repeat: repeat, repeat;
     background-position: left top, left top;
     background-attachment: scroll, scroll;
