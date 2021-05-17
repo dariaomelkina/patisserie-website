@@ -222,7 +222,7 @@ body {
     background-size: auto;
     padding-bottom: 10px !important;
     padding: 100px 0 100px 0 !important;
-    height: 600px;
+    height: auto !important;
 }
 
 #ii1mj {

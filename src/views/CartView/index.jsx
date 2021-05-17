@@ -9,24 +9,56 @@ import CartForm from "../../modules/Cart /components/CartForm";
 
 
 const CartView = () => {
+    const items = [
+        {
+            id: 1,
+            name: "overwatch",
+            price: 20,
+        },
+        {
+            id: 2,
+            name: "minecraft",
+            price: 32,
+        },
+        {
+            id: 3,
+            name: "fortnite",
+            price: 51,
+        },
+    ];
+
+    const [cart, setCart] = React.useState([]);
+    // const cartTotalPrice = cart.reduce((total, {price = 0}) => total + price, 0);
+    const addToCart = (el) => {
+        setCart([...cart, el]);
+    };
+    const listItems = items.map((el) => (
+        <div key={el.id}>
+            {`${el.name}: $${el.price}`}
+            <input type="submit" value="add" onClick={() => addToCart(el)}/>
+        </div>
+    ));
+    const cartItems = cart.map((el) => (
+        <div className="cell" id="iqaum">
+            <div key={el.id}>
+                {`${el.name}: $${el.price}`}
+                {/*<input type="submit" value="remove" onClick={() => removeFromCart(el)}/>*/}
+            </div>
+        </div>
+    ));
     return (
         <div>
             <Header/>
             <section id="icd16f" className="flex-sect">
                 <CartHeading/>
                 <div className="row" id="i3jgh">
+                    <div>{listItems}</div>
                     <div className="cell" id="ii1mj">
                         <div className="row" id="i1m5z">
-                            {/*TODO: отут має бути загальний елменти, що вміщатиме в себе об'єкти корзинки
-                                і генеруватиме з ними список + CartElemet використати як базу*/}
-                            <div className="cell" id="iqaum">
-
-                                <CartElement1/>
-                                <CartElement2/>
-
-                            </div>
+                            <div>{cartItems}</div>
                         </div>
                     </div>
+
 
                     <CartForm/>
 
