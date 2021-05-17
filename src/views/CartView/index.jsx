@@ -11,24 +11,32 @@ const CartView = props => {
             return acc + value.price;
         }, 0).toFixed(2);
     };
+    const myButton = {
+        color: "gray",
+        backgroundColor: "GhostWhite",
+        height: "100px",
+        marginTop: "70px"
+    }
 
     return (
         <div>
             <section id="icd16f" className="flex-sect">
-                <CartHeading/>
-                <div className="row" id="i3jgh">
+                <div id="cartCards">
+                    <CartHeading/>
+                    <div className="row" id="i3jgh">
 
-                    <div>
-                        {props.cart.map(item => (
-                            <Item key={item.id} {...item} />
-                        ))}
+                        <div>
+                            {props.cart.map(item => (
+                                <Item key={item.id} {...item} />
+                            ))}
+                        </div>
+
+                        <CartForm total={getCartTotal()}/>
+
+                        <button onClick={() => props.removeItem(props.product)} style={myButton}>
+                            Clear the cart
+                        </button>
                     </div>
-
-                    <CartForm total={getCartTotal()}/>
-
-                    <button onClick={() => props.removeItem(props.product)}>
-                        Clear the cart
-                    </button>
                 </div>
             </section>
         </div>

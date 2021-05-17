@@ -7,7 +7,7 @@ const Product = props => {
     };
 
     const myButton = {
-        color:"gray",
+        color: "gray",
         backgroundColor: "GhostWhite",
     }
     return (

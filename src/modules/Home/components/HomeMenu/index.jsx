@@ -1,4 +1,5 @@
 import React from "react";
+import {NavLink} from "react-router-dom";
 
 const HomeMenu = () => {
 
@@ -8,8 +9,7 @@ const HomeMenu = () => {
                 <div id="ij2jg" className="card-header ch2">
                 </div>
                 <div className="card-body" id="irsxy">
-                    <div id="ia5am" className="card-title">Cakes
-                    </div>
+                    <NavLink to="/menu" id="ia5am" className="card-title" style={{"color": "black"}}>Cakes</NavLink>
                     <div id="ivjp2" className="card-sub-title">
                         <br/>
                     </div>
@@ -24,8 +24,9 @@ const HomeMenu = () => {
                 <div id="i923ng" className="card-header ch2">
                 </div>
                 <div className="card-body" id="id2rk">
-                    <div id="i0re4l" className="card-title">Treats
-                    </div>
+                    <NavLink to="/menu" id="ia5am" className="card-title" style={{"color": "black"}}>Treats</NavLink>
+
+
                     <div id="ia2mgk" className="card-sub-title">
                         <br/>
                     </div>
@@ -41,8 +42,8 @@ const HomeMenu = () => {
                 <div id="iblbr" className="card-header ch3">
                 </div>
                 <div className="card-body" id="ite7i">
-                    <div id="ifaih" className="card-title">Drinks
-                    </div>
+                    <NavLink to="/menu" id="ia5am" className="card-title" style={{"color": "black"}}>Drinks</NavLink>
+
                     <div id="ibgnh" className="card-sub-title">
                         <br/>
                     </div>
@@ -57,9 +58,9 @@ const HomeMenu = () => {
                 <div className="card-header ch4">
                 </div>
                 <div className="card-body" id="iqrvo">
-                    <div id="iikoz" className="card-title">Vegan menu
-                        <br/>
-                    </div>
+                    <NavLink to="/menu" id="ia5am" className="card-title" style={{"color": "black"}}>Vegan
+                        menu</NavLink>
+
                     <div id="i9gnu" className="card-sub-title">
                         <br/>
                     </div>

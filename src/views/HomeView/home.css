@@ -496,7 +496,7 @@ body {
 }
 
 #irsxy:hover {
-    color: #000000;
+    color: #000000 !important;
 }
 
 #i5pr2:hover {

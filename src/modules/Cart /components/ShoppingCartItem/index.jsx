@@ -1,14 +1,23 @@
 import React from 'react';
 
 const Item = props => {
+    const myStyle = {
+        minWidth: "100%",
+        maxHeight: "65%",
+    };
     return (
-        <div className="shopping-cart_item">
-            <img src={props.image} alt={`${props.title} book`}/>
+        <div className="card">
+            <img src={props.image} alt={`${props.title}`} style={myStyle}/>
+            <div className="card-body" id="io9imj">
 
-            <div>
-                <h1>{props.title}</h1>
-                <p>$ {props.price}</p>
+                <div className="card-title" id="iujzpi">{props.title}
+                    <br/>
+                </div>
+                <div className="card-title" id="im23vl">Price: -{props.price}$ for 1 kg.
+                    <br/>
+                </div>
             </div>
+
         </div>
     );
 };
