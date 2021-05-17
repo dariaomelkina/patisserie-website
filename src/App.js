@@ -20,6 +20,10 @@ function App() {
         setCart([...cart, item]);
     };
 
+      const removeItem = (item) => {
+		setCart([])
+	};
+
     return (
         <div className="App">
             <Navigation/>
@@ -40,7 +44,7 @@ function App() {
                 <ContactsView/>
             </Route>
             <Route path="/cart">
-                <CartView cart={cart}/>
+                <CartView cart={cart} removeItem={removeItem}/>
             </Route>
             <Footer/>
         </div>

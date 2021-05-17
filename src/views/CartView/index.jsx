@@ -1,11 +1,7 @@
 import "./cart.css";
 import React from "react";
-import {useState, useEffect} from "react";
-import Header from "../../modules/General/components/Header";
 import Footer from "../../modules/General/components/Footer";
 import CartHeading from "../../modules/Cart /components/CartHeading";
-import CartElement1 from "../../modules/Cart /components/CartElement1";
-import CartElement2 from "../../modules/Cart /components/CartElement2";
 import CartForm from "../../modules/Cart /components/CartForm";
 import Item from "../../modules/Cart /components/ShoppingCartItem";
 
@@ -30,6 +26,10 @@ const CartView = props => {
                     </div>
 
                     <CartForm total={getCartTotal()}/>
+
+                    <button onClick={() => props.removeItem(props.product)}>
+				        Clear the cart
+			        </button>
                 </div>
             </section>
             <Footer/>
