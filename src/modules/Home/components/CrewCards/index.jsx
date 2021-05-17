@@ -22,7 +22,9 @@ const CrewCards = () => {
                             </div>
                         </div>
                         <div id="ixopyh" className="badge-foot">
-                            <span id="i0x1ki" className="badge-link">✉</span>
+                            <a href="https://www.facebook.com/csatucu">
+                                <span id="iozmql" className="badge-link">✉</span>
+                            </a>
                         </div>
                     </div>
                     <div className="badge">
@@ -36,7 +38,9 @@ const CrewCards = () => {
                             </div>
                         </div>
                         <div id="irreas" className="badge-foot">
-                            <span id="i6z90y" className="badge-link">✉</span>
+                            <a href="https://www.facebook.com/csatucu">
+                                <span id="iozmql" className="badge-link">✉</span>
+                            </a>
                         </div>
                     </div>
                     <div className="badge">
@@ -50,7 +54,9 @@ const CrewCards = () => {
                             </div>
                         </div>
                         <div id="i8piox" className="badge-foot">
-                            <span id="iozmql" className="badge-link">✉</span>
+                            <a href="https://www.facebook.com/csatucu">
+                                <span id="iozmql" className="badge-link">✉</span>
+                            </a>
                         </div>
                     </div>
                 </div>

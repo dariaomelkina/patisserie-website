@@ -8,20 +8,20 @@ const SpecialHeader = () => {
                 <div id="i6ol" className="logo-container">
                 </div>
                 <nav id="ivk2" className="menu">
-                    <div id="i49v" className="menu-item">
+                    <a href="/contacts" id="i49v" className="menu-item">
                         <div id="i8k8">Contacts
                         </div>
-                    </div>
-                    <div id="i7j68h" className="menu-item">Cart
-                    </div>
-                    <div id="i91llm" className="menu-item">Vacancies
-                    </div>
-                    <div id="izqj" className="menu-item">Menu
-                    </div>
-                    <div id="i5lgs" className="menu-item">Home
-                    </div>
+                    </a>
+                    <a href="/cart" id="i7j68h" className="menu-item">Cart
+                    </a>
+                    <a href="/vacancies" id="i91llm" className="menu-item">Vacancies
+                    </a>
+                    <a href="/menu" id="izqj" className="menu-item">Menu
+                    </a>
+                    <a href="/home" id="i5lgs" className="menu-item">Home
+                    </a>
                 </nav>
-                <div id="ien7" className="logo">
+                <a href="\home" id="ien7" className="logo">
                     <div>
                         <b>Pâtisserie
                             <br/>
@@ -31,7 +31,7 @@ const SpecialHeader = () => {
                         <b>on the Hill
                         </b>
                     </div>
-                </div>
+                </a>
                 <div className="clearfix">
                 </div>
                 <div id="izsmt" className="lead-title">
