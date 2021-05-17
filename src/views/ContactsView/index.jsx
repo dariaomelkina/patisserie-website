@@ -10,8 +10,6 @@ import RightContacts from "../../modules/Contacts/components/RightContacts";
 const ContactsView = () => {
     return (
         <div>
-            <Header/>
-
             <section id="icd16f" className="flex-sect">
                 <ContactsHeading/>
 

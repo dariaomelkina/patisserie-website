@@ -29,7 +29,6 @@ const CartView = () => {
 
     return (
         <div>
-            <Header/>
             <section id="icd16f" className="flex-sect">
                 <CartHeading/>
                 <div className="row" id="i3jgh">
