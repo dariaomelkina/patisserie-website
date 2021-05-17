@@ -1,6 +1,5 @@
 import "./contacts.css";
 import React from "react";
-import Footer from "../../modules/General/components/Footer";
 import ContactsHeading from "../../modules/Contacts/components/ContactsHeading";
 import LeftContacts from "../../modules/Contacts/components/LeftContacts";
 import RightContacts from "../../modules/Contacts/components/RightContacts";
@@ -21,7 +20,6 @@ const ContactsView = () => {
                 </div>
 
             </section>
-            <Footer/>
         </div>
     );
 };

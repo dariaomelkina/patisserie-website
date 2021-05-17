@@ -1,27 +1,27 @@
-import React from "react";
+import React from 'react';
+import {NavLink} from 'react-router-dom';
 
 const Header = () => {
-
     return (
         <header id="iznd" className="header-banner">
             <div id="imif" className="container-width">
                 <div id="i6ol" className="logo-container">
                 </div>
                 <nav id="ivk2" className="menu">
-                    <a href="/contacts" id="i49v" className="menu-item">
+                    <NavLink to="/contacts" id="i49v" className="menu-item">
                         <div id="i8k8">Contacts
                         </div>
-                    </a>
-                    <a href="/cart" id="i7j68h" className="menu-item">Cart
-                    </a>
-                    <a href="/vacancies" id="i91llm" className="menu-item">Vacancies
-                    </a>
-                    <a href="/menu" id="izqj" className="menu-item">Menu
-                    </a>
-                    <a href="/home" id="i5lgs" className="menu-item">Home
-                    </a>
+                    </NavLink>
+                    <NavLink to="/cart" id="i7j68h" className="menu-item">Cart
+                    </NavLink>
+                    <NavLink to="/vacancies" id="i91llm" className="menu-item">Vacancies
+                    </NavLink>
+                    <NavLink to="/menu" id="izqj" className="menu-item">Menu
+                    </NavLink>
+                    <NavLink to="/home" id="i5lgs" className="menu-item">Home
+                    </NavLink>
                 </nav>
-                <a href="\home" id="ien7" className="logo">
+                <NavLink to="\home" id="ien7" className="logo">
                     <div>
                         <b>Pâtisserie
                             <br/>
@@ -31,7 +31,7 @@ const Header = () => {
                         <b>on the Hill
                         </b>
                     </div>
-                </a>
+                </NavLink>
                 <div className="clearfix">
                 </div>
             </div>

@@ -9,7 +9,10 @@ body {
 .clearfix {
     clear: both;
 }
-a:link { text-decoration: none; }
+
+a:link {
+    text-decoration: none;
+}
 
 .header-banner {
     padding-top: 35px;
@@ -288,6 +291,7 @@ body {
 }
 
 #izsmt {
+    background-color: #113333;
     font-family: Verdana New, Verdana, monospace;
     padding: 0 0 0 0;
     margin: 5% 0 2% 0;

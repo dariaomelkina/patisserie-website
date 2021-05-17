@@ -2,15 +2,18 @@ import React from 'react';
 
 const Product = props => {
     const myStyle = {
-        height: "70%",
-        repeat: "repeat",
-        position: "left top",
-        attachment: "scroll",
-        size: "cover"
+        minWidth: "100%",
+        maxHeight: "65%",
     };
+
+    const myButton = {
+        color:"gray",
+        backgroundColor: "GhostWhite",
+    }
     return (
 
         <div className="card" id="icx6um" style={{"background-image": props.product.image}}>
+
             <img src={props.product.image} alt={`${props.product.title} book`} style={myStyle}/>
 
             <div className="card-body" id="io9imj">
@@ -20,7 +23,7 @@ const Product = props => {
                 <div className="card-title" id="im23vl">Price: -{props.product.price}$ for 1 kg.
                     <br/>
                 </div>
-                <button onClick={() => props.addItem(props.product)}>
+                <button onClick={() => props.addItem(props.product)} style={myButton}>
                     Add to cart
                 </button>
             </div>

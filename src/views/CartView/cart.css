@@ -11,7 +11,10 @@ body {
     flex-grow: 1;
     flex-basis: 100%;
 }
-a:link { text-decoration: none; }
+
+a:link {
+    text-decoration: none;
+}
 
 .row {
     display: flex;
@@ -284,7 +287,9 @@ body {
 }
 
 #isar4 {
-    width: 95%;
+    width: 40%;
+    position: absolute;
+    right: 10%;
     background-image: linear-gradient(#f2f2ed, #f2f2ed);
     background-repeat: repeat;
     background-position: left top;

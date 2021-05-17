@@ -5,12 +5,11 @@ import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import HomeView from "./views/HomeView";
 import VacanciesView from "./views/VacanciesView";
-import MenuView from "./views/MenuView";
 import CartView from "./views/CartView";
 import ContactsView from "./views/ContactsView";
 import Products from './modules/Menu/components/ProductList';
 import Footer from "./modules/General/components/Footer";
-import Navigation from "./modules/General/components/Navigation";
+import Header from "./modules/General/components/Header";
 
 function App() {
     const [products] = useState(data);
@@ -26,7 +25,7 @@ function App() {
 
     return (
         <div className="App">
-            <Navigation/>
+            <Header/>
 
             <Route exact path="/">
                 <HomeView/>

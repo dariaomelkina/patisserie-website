@@ -9,7 +9,10 @@ body {
 .clearfix {
     clear: both;
 }
-a:link { text-decoration: none; }
+
+a:link {
+    text-decoration: none;
+}
 
 .header-banner {
     padding-top: 35px;

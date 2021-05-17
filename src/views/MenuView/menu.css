@@ -9,7 +9,10 @@ body {
 .clearfix {
     clear: both;
 }
-a:link { text-decoration: none; }
+
+a:link {
+    text-decoration: none;
+}
 
 .header-banner {
     padding-top: 35px;
@@ -1048,4 +1051,21 @@ body {
     background-position: left top;
     background-attachment: scroll;
     background-size: cover;
+}
+
+.fill {
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*overflow: hidden*/
+}
+
+/*.fill img {*/
+/*    flex-shrink: 0;*/
+/*    min-width: 100%;*/
+/*    min-height: 100%*/
+/*}*/
+
+.prdImage {
+    height: 70% !important;
 }
