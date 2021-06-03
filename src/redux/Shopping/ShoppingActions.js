@@ -11,11 +11,9 @@ export const addToCard = (itemID) => {
 };
 
 
-export const removeFromCard = (itemID) => {
+export const LoadCurrentItem = (item) => {
     return {
-        type: actionTypes.CLEAR_CARD,
-        payload: {
-            id: itemID
-        }
+        type: actionTypes.LOAD_CURRENT_ITEM,
+        payload: item
     }
-};
+}

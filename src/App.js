@@ -11,18 +11,19 @@ import ContactsView from "./views/ContactsView";
 import Products from './modules/Menu/components/ProductList';
 import Footer from "./modules/General/components/Footer";
 import Header from "./modules/General/components/Header";
+import { addToCard } from './redux/Shopping/ShoppingActions';
 
 function App() {
     const [products] = useState(data);
-    const [cart, setCart] = useState([]);
+    const [cart] = useState([]);
 
-    const addItem = item => {
-        setCart([...cart, item]);
-    };
+    // const addItem = item => {
+    //     setCart([...cart, item]);
+    // };
 
-      const removeItem = () => {
-		setCart([])
-	};
+    //   const removeItem = () => {
+	// 	setCart([])
+	// };
 
     return (
         <div className="App">
@@ -35,7 +36,7 @@ function App() {
                 <HomeView/>
             </Route>
             <Route path="/menu">
-                <Products products={products} addItem={addItem}/>
+                <Products products={products} addItem={addToCard}/>
             </Route>
             <Route path="/vacancies">
                 <VacanciesView/>
@@ -44,7 +45,7 @@ function App() {
                 <ContactsView/>
             </Route>
             <Route path="/cart">
-                <CartView cart={cart} removeItem={removeItem}/>
+                <CartView cart={cart}/>
             </Route>
             <Footer/>
         </div>

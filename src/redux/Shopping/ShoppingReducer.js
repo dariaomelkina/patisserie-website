@@ -211,18 +211,20 @@ const shopReducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
         case actionTypes.ADD_TO_CARD:
             const item = state.products.find(prod => prod.id === action.payload.id);
+            console.log(...state.cart)
             return {
                 ...state,
                 cart: [...state.cart, { ...item }],
             }
-        case actionTypes.CLEAR_CARD:
+        case actionTypes.LOAD_CURRENT_ITEM:
             return {
                 ...state,
-                cart: state.cart([]),
+                currentItem: action.payload,
             }
         default:
             return state;
     }
+
 };
 
 export default shopReducer;
