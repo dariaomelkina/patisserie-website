@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { connect } from 'react-redux';
+
 const Product = props => {
     const myStyle = {
         minWidth: "100%",
@@ -12,24 +14,30 @@ const Product = props => {
     }
     return (
 
-        <div className="card" id="icx6um" style={{"background-image": props.product.image}}>
+        <div className="card" id="icx6um" style={{ "background-image": props.product.image }}>
 
-            <img src={props.product.image} alt={`${props.product.title} book`} style={myStyle}/>
+            <img src={props.product.image} alt={`${props.product.title} book`} style={myStyle} />
 
             <div className="card-body" id="io9imj">
                 <div className="card-title" id="iujzpi">{props.product.title}
-                    <br/>
+                    <br />
                 </div>
                 <div className="card-title" id="im23vl">Price: -{props.product.price}$ for 1 kg.
-                    <br/>
+                    <br />
                 </div>
                 <button onClick={() => props.addItem(props.product)} style={myButton}>
                     Add to cart
                 </button>
             </div>
         </div>
-    )
-        ;
+    );
 };
 
-export default Product;
+
+const mapStatesToProps = state => {
+    return {
+        products: state.shop.products,
+    }
+}
+
+export default connect(mapStatesToProps)(Product);

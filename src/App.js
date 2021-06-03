@@ -20,7 +20,7 @@ function App() {
         setCart([...cart, item]);
     };
 
-      const removeItem = (item) => {
+      const removeItem = () => {
 		setCart([])
 	};
 
