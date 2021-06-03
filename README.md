@@ -14,9 +14,17 @@ Contains such pages:
 * shopping cart
 * contacts
 
+## Prerequisites:
+```
+npm i -g json-server
+npm install axios
+npm install --save redux
+```
+
 ## Usage:
 In the project directory, you can run:
 ```bash
+json-server src/api/data.js --port 3004
 npm start
 ```
 
