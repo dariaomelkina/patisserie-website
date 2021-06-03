@@ -1,8 +1,8 @@
 import React from 'react';
-
 import { connect } from 'react-redux';
+import { addToCard } from '../../../../redux/Shopping/ShoppingActions';
 
-const Product = props => {
+const Product = ({ product, addToCard }) => {
     const myStyle = {
         minWidth: "100%",
         maxHeight: "65%",
@@ -14,18 +14,18 @@ const Product = props => {
     }
     return (
 
-        <div className="card" id="icx6um" style={{ "background-image": props.product.image }}>
+        <div className="card" id="icx6um" style={{ "background-image": product.image }}>
 
-            <img src={props.product.image} alt={`${props.product.title} book`} style={myStyle} />
+            <img src={product.image} alt={`${product.title} book`} style={myStyle} />
 
             <div className="card-body" id="io9imj">
-                <div className="card-title" id="iujzpi">{props.product.title}
+                <div className="card-title" id="iujzpi">{product.title}
                     <br />
                 </div>
-                <div className="card-title" id="im23vl">Price: -{props.product.price}$ for 1 kg.
+                <div className="card-title" id="im23vl">Price: -{product.price}$ for 1 kg.
                     <br />
                 </div>
-                <button onClick={() => props.addItem(props.product)} style={myButton}>
+                <button onClick={() => addToCard(product.id)} style={myButton}>
                     Add to cart
                 </button>
             </div>
@@ -33,11 +33,10 @@ const Product = props => {
     );
 };
 
-
-const mapStatesToProps = state => {
+const mapDispatchToProbs = dispatch => {
     return {
-        products: state.shop.products,
+        addToCard: (id) => dispatch(addToCard(id)),
     }
 }
 
-export default connect(mapStatesToProps)(Product);
+export default connect(null, mapDispatchToProbs)(Product);
