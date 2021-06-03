@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import data from './data';
 import "./index.css";
+// eslint-disable-next-line no-unused-vars
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 import HomeView from "./views/HomeView";
