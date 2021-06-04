@@ -31,7 +31,7 @@ npm start
 If You want to use another port for json-server, do not forget to 
 specify it at the file [src/api/api.js](src/api/api.js).
 
-(project will run at http://localhost:3000)
+(project will run at http://localhost:3000, if not specified otherwise)
 
 ## Testing:
 In the project directory, you can run:
