@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, withRouter } from 'react-router-dom';
+import {BrowserRouter as Router, withRouter} from 'react-router-dom';
 
-import { Provider } from 'react-redux';
+import {Provider} from 'react-redux';
 
 import "./index.css";
 import App from "./App";
@@ -14,7 +14,7 @@ const AppWithRouter = withRouter(App);
 ReactDOM.render(
     <Router>
         <Provider store={store}>
-            <AppWithRouter />
+            <AppWithRouter/>
         </Provider>
     </Router>,
     // eslint-disable-next-line no-undef

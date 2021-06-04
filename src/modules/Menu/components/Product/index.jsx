@@ -1,8 +1,8 @@
 import React from 'react';
-import { connect } from 'react-redux';
-import { addToCard } from '../../../../redux/Shopping/ShoppingActions';
+import {connect} from 'react-redux';
+import {addToCard} from '../../../../redux/Shopping/ShoppingActions';
 
-const Product = ({ product, addToCard }) => {
+const Product = ({product, addToCard}) => {
     const myStyle = {
         minWidth: "100%",
         maxHeight: "65%",
@@ -14,16 +14,16 @@ const Product = ({ product, addToCard }) => {
     }
     return (
 
-        <div className="card" id="icx6um" style={{ "background-image": product.image }}>
+        <div className="card" id="icx6um" style={{"background-image": product.image}}>
 
-            <img src={product.image} alt={`${product.title} book`} style={myStyle} />
+            <img src={product.image} alt={`${product.title} book`} style={myStyle}/>
 
             <div className="card-body" id="io9imj">
                 <div className="card-title" id="iujzpi">{product.title}
-                    <br />
+                    <br/>
                 </div>
                 <div className="card-title" id="im23vl">Price: -{product.price}$ for 1 kg.
-                    <br />
+                    <br/>
                 </div>
                 <button onClick={() => addToCard(product.id)} style={myButton}>
                     Add to cart

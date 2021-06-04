@@ -10,12 +10,23 @@ class ProductList extends React.Component {
     };
 
     render() {
-        console.log(this.props.data);
         if (this.props.loading) {
-            return <div>Loading</div>
+            return <div className="flex-sect" id="ivl8bg">
+                <div className="flex-title" id="ifqd83">
+                    <div id="ipf36l">
+                        Loading products...
+                    </div>
+                </div>
+            </div>
         }
         if (this.props.error) {
-            return <div style={{color: 'red'}}>ERROR: {this.props.error}</div>
+            return <div className="flex-sect" id="ivl8bg">
+                <div className="flex-title" id="ifqd83">
+                    <div id="ipf36l">Error with getting data for menu. Make sure that json-server
+                        is running on a correct port.
+                    </div>
+                </div>
+            </div>
         }
         return (
             <section className="flex-sect" id="ivl8bg">

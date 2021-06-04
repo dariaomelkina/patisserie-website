@@ -1,4 +1,4 @@
-import {LOAD_DATA_ERROR, LOAD_DATA_SUCCESS, LOAD_DATA_LOADING} from "./actions";
+import {LOAD_DATA_ERROR, LOAD_DATA_LOADING, LOAD_DATA_SUCCESS} from "./actions";
 
 const initialState = {
     data: [],
@@ -14,7 +14,7 @@ export default function thunkReducer(state = initialState, action) {
             return {
                 ...state,
                 loading: true,
-                error:''
+                error: ''
             };
         }
         case LOAD_DATA_SUCCESS: {

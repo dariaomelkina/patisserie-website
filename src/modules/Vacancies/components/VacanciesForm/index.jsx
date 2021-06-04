@@ -20,7 +20,7 @@ const VacanciesForm = () => {
                 <label className="label" id="imk1o">Name</label>
                 <div className="control">
                     <input className={`input ${errors.name && 'is-danger'}`} type="name" name="name" id="i8u85"
-                           onChange={handleChange} value={values.name || ''} required />
+                           onChange={handleChange} value={values.name || ''} required/>
                 </div>
                 {errors.name && (
                     <p className="help is-danger">{errors.name}</p>

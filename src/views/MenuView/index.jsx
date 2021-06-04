@@ -6,7 +6,7 @@ import ProductList from "../../modules/Menu/components/ProductList";
 const MenuView = props => {
     return (
         <div>
-            <ProductList products={props.products} addItem={props.addItem}/>
+            <ProductList addItem={props.addItem}/>
         </div>
     );
 };
