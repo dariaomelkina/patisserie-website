@@ -1,5 +1,5 @@
 import React from "react";
-import {NavLink} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const HomeMenu = () => {
 
@@ -9,7 +9,7 @@ const HomeMenu = () => {
                 <div id="ij2jg" className="card-header ch2">
                 </div>
                 <div className="card-body" id="irsxy">
-                    <NavLink to="/menu" id="ia5am" className="card-title" style={{"color": "black"}}>Cakes</NavLink>
+                    <Link to="/menu" id="ia5am" className="card-title" style={{"color": "black"}}>Cakes</Link>
                     <div id="ivjp2" className="card-sub-title">
                         <br/>
                     </div>
@@ -24,7 +24,7 @@ const HomeMenu = () => {
                 <div id="i923ng" className="card-header ch2">
                 </div>
                 <div className="card-body" id="id2rk">
-                    <NavLink to="/menu" id="ia5am" className="card-title" style={{"color": "black"}}>Treats</NavLink>
+                    <Link to="/menu" id="ia5am" className="card-title" style={{"color": "black"}}>Treats</Link>
 
 
                     <div id="ia2mgk" className="card-sub-title">
@@ -42,7 +42,7 @@ const HomeMenu = () => {
                 <div id="iblbr" className="card-header ch3">
                 </div>
                 <div className="card-body" id="ite7i">
-                    <NavLink to="/menu" id="ia5am" className="card-title" style={{"color": "black"}}>Drinks</NavLink>
+                    <Link to="/menu" id="ia5am" className="card-title" style={{"color": "black"}}>Drinks</Link>
 
                     <div id="ibgnh" className="card-sub-title">
                         <br/>
@@ -58,8 +58,8 @@ const HomeMenu = () => {
                 <div className="card-header ch4">
                 </div>
                 <div className="card-body" id="iqrvo">
-                    <NavLink to="/menu" id="ia5am" className="card-title" style={{"color": "black"}}>Vegan
-                        menu</NavLink>
+                    <Link to="/menu" id="ia5am" className="card-title" style={{"color": "black"}}>Vegan
+                        menu</Link>
 
                     <div id="i9gnu" className="card-sub-title">
                         <br/>
