@@ -1,2 +1,1 @@
 export const ADD_TO_CARD = "ADD_TO_CARD";
-export const LOAD_CURRENT_ITEM = "LOAD_CURRENT_ITEM";

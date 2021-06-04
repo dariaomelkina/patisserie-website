@@ -9,11 +9,3 @@ export const addToCard = (itemID) => {
         }
     }
 };
-
-
-export const LoadCurrentItem = (item) => {
-    return {
-        type: actionTypes.LOAD_CURRENT_ITEM,
-        payload: item
-    }
-}

@@ -1,5 +1,6 @@
 import * as actionTypes from './ShoppingTypes';
 
+// we left this part of data hardcoded, redux-thunk and connection to json-server are demonstrated for the menu
 const INITIAL_STATE = {
     data: [],
     products: [
@@ -205,7 +206,6 @@ const INITIAL_STATE = {
         }
     ], //id: 1, type, title, price, image
     cart: [],
-    currentItem: null
 };
 
 const shopReducer = (state = INITIAL_STATE, action) => {
@@ -216,11 +216,6 @@ const shopReducer = (state = INITIAL_STATE, action) => {
             return {
                 ...state,
                 cart: [...state.cart, {...item}],
-            }
-        case actionTypes.LOAD_CURRENT_ITEM:
-            return {
-                ...state,
-                currentItem: action.payload,
             }
         default:
             return state;
