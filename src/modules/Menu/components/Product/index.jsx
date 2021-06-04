@@ -25,7 +25,7 @@ const Product = ({product, addToCard}) => {
                 <div className="card-title" id="im23vl">Price: -{product.price}$ for 1 kg.
                     <br/>
                 </div>
-                <button onClick={() => addToCard(product.id)} style={myButton}>
+                <button onClick={() => addToCard(product)} style={myButton}>
                     Add to cart
                 </button>
             </div>
