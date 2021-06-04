@@ -10,7 +10,7 @@ class ProductList extends React.Component {
     };
 
     render() {
-        console.log(this.props);
+        console.log(this.props.data);
         if (this.props.loading) {
             return <div>Loading</div>
         }
@@ -27,7 +27,7 @@ class ProductList extends React.Component {
                     </div>
                     <div className="cards" id="ingsqg">
 
-                        {this.props.products.data.map(product => (product.type === "cake" &&
+                        {this.props.data.map(product => (product.type === "cake" &&
                             <Product
                                 key={product.id}
                                 product={product}
@@ -45,7 +45,7 @@ class ProductList extends React.Component {
                     </div>
                     <div className="cards" id="ingsqg">
 
-                        {this.props.products.data.map(product => (product.type === "treat" &&
+                        {this.props.data.map(product => (product.type === "treat" &&
                             <Product
                                 key={product.id}
                                 product={product}
@@ -63,7 +63,7 @@ class ProductList extends React.Component {
                     </div>
                     <div className="cards" id="ingsqg">
 
-                        {this.props.products.data.map(product => (product.type === "drink" &&
+                        {this.props.data.map(product => (product.type === "drink" &&
                             <Product
                                 key={product.id}
                                 product={product}
@@ -81,7 +81,7 @@ class ProductList extends React.Component {
                     </div>
                     <div className="cards" id="ingsqg">
 
-                        {this.props.products.data.map(product => (product.type === "vegan" &&
+                        {this.props.data.map(product => (product.type === "vegan" &&
                             <Product
                                 key={product.id}
                                 product={product}
@@ -96,26 +96,10 @@ class ProductList extends React.Component {
     }
 }
 
-// const ProductList1 = ({products}) => {
-//     this.props.loadData();
-//
-//     return (
-
-//     );
-// };
-
-// const mapStatesToProps = state => {
-//     return {
-//         products: state.shop.products,
-//     }
-// }
-//
-// export default connect(mapStatesToProps)(ProductList);
-
 const mapStateToProps = state => ({
-    data: state.data,
-    loading: state.loading,
-    error: state.error,
+    data: state.reduxThunk.data,
+    loading: state.reduxThunk.loading,
+    error: state.reduxThunk.error,
 });
 
 const mapDispatchToProps = {

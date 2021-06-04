@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
-import data from './api/data';
 import "./index.css";
 // eslint-disable-next-line no-unused-vars
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import {Route} from "react-router-dom";
 
 import HomeView from "./views/HomeView";
 import VacanciesView from "./views/VacanciesView";
@@ -11,10 +10,9 @@ import ContactsView from "./views/ContactsView";
 import Products from './modules/Menu/components/ProductList';
 import Footer from "./modules/General/components/Footer";
 import Header from "./modules/General/components/Header";
-import { addToCard } from './redux/Shopping/ShoppingActions';
+import {addToCard} from './redux/Shopping/ShoppingActions';
 
 function App() {
-    const [products] = useState(data);
     const [cart] = useState([]);
 
     return (
@@ -28,7 +26,7 @@ function App() {
                 <HomeView/>
             </Route>
             <Route path="/menu">
-                <Products products={products} addItem={addToCard}/>
+                <Products addItem={addToCard}/>
             </Route>
             <Route path="/vacancies">
                 <VacanciesView/>
