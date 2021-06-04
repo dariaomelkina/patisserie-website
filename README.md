@@ -17,7 +17,6 @@ Contains such pages:
 ## Prerequisites:
 ```
 npm i -g json-server
-npm install axios
 npm install redux-thunk
 npm install --save redux
 ```
