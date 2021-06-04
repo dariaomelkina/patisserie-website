@@ -1,4 +1,4 @@
-import { combineReducers } from 'redux';
+import {combineReducers} from 'redux';
 import ShopReducer from './Shopping/ShoppingReducer';
 
 

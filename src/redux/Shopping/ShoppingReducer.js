@@ -1,6 +1,7 @@
 import * as actionTypes from './ShoppingTypes';
 
 const INITIAL_STATE = {
+    data: [],
     products: [
         {
             id: 1,
@@ -208,13 +209,13 @@ const INITIAL_STATE = {
 };
 
 const shopReducer = (state = INITIAL_STATE, action) => {
+    console.log(...state.data);
     switch (action.type) {
         case actionTypes.ADD_TO_CARD:
             const item = state.products.find(prod => prod.id === action.payload.id);
-            console.log(...state.cart)
             return {
                 ...state,
-                cart: [...state.cart, { ...item }],
+                cart: [...state.cart, {...item}],
             }
         case actionTypes.LOAD_CURRENT_ITEM:
             return {

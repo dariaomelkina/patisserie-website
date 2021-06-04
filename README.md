@@ -18,6 +18,7 @@ Contains such pages:
 ```
 npm i -g json-server
 npm install axios
+npm install redux-thunk
 npm install --save redux
 ```
 
@@ -27,6 +28,9 @@ In the project directory, you can run:
 json-server src/api/data.js --port 3004
 npm start
 ```
+
+If You want to use another port for json-server, do not forget to 
+specify it at the file [src/api/api.js](src/api/api.js).
 
 (project will run at http://localhost:3000)
 
